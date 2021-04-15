@@ -1,10 +1,6 @@
 package com.murad.chapter10;
 
-/**
- * @author Murad Salmanov (legenda)
- * @created 15/04/2021 - 17:16
- * @project JavaCore
- */
+
 public class MultipleCatches {
     public static void main(String[] args) {
         try {
