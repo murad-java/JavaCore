@@ -28,7 +28,7 @@ public class GenericFunctionalInterfaceDemo {
         System.out.println("радар обращается на " + revers.func("радар"));
         System.out.println("шабаш обращается на " + revers.func("шабаш"));
         System.out.println("шалаш обращается на " + revers.func("шалаш"));
-        System.out.println("шутка обращается на " + revers.func("шутка"));
+        System.out.println("'Кит на море романтик' обращается на " + revers.func("'Кит на море романтик'"));
         //Факториал
         System.out.println();
         SomeFunc<Integer> factorial = n -> {
