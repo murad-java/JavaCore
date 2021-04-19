@@ -1,4 +1,4 @@
-package com.murad.chapter15.GenericMethodRefDemo;
+package com.murad.chapter15.generic_method_ref_demo;
 
 /**
  * @author Murad Salmanov (legenda)

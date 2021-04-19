@@ -1,4 +1,4 @@
-package com.murad.chapter15.LamЬdasAsArgumentsDemo;
+package com.murad.chapter15.lamЬdas_as_arguments_demo;
 
 
 /**

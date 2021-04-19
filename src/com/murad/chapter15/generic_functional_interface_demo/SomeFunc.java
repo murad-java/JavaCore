@@ -1,4 +1,4 @@
-package com.murad.chapter15.GenericFunctionalInterfaceDemo;
+package com.murad.chapter15.generic_functional_interface_demo;
 
 /**
  * @author Murad Salmanov (legenda)
