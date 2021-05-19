@@ -18,15 +18,13 @@ public class Explicid_Channel_Write {
         try (FileChannel fChan = (FileChannel) Files.newByteChannel(Paths.get("test2.txt"),
                                                                     StandardOpenOption.WRITE,
                                                                     StandardOpenOption.CREATE)) {
-            ByteBuffer mBuf= ByteBuffer.allocate(26);
-            for (int i=0;i<26;i++)mBuf.put((byte) ('A'+i));
+            ByteBuffer mBuf = ByteBuffer.allocate(26);
+            for (int i = 0; i < 26; i++) mBuf.put((byte) ('A' + i));
             mBuf.rewind();
             fChan.write(mBuf);
-        } catch (
-                InvalidPathException e) {
+        } catch (InvalidPathException e) {
             System.out.println("Ошибка указания пути: " + e);
-        } catch (
-                IOException e) {
+        } catch (IOException e) {
             System.out.println("Ошибка ввода-вывода: " + e);
         }
     }
